@@ -1,24 +1,22 @@
-import { Outlet, Link, useNavigate } from 'react-router-dom' 
+import { Outlet, Link, Navigate,useLocation } from 'react-router-dom' 
 import { Layout, Menu } from 'antd';
-import React, { useEffect } from 'react';
-const { Header, Content } = Layout;
+import React from 'react';
+const { Header, Content,} = Layout;
 export default function Index() {
-
-  const navigate = useNavigate();
-
-  useEffect(() => {
-    navigate('/gateway/personal');
-  }, []);
+  const location = useLocation();
+  if (location.pathname === '/') {
+    return <Navigate to="gateway" />;
+  }
   return (
     <Layout className='HEADER'>
-      <Header className="header">
+      <Header className="header" style={{ backgroundImage: 'linear-gradient(#475DFF , #259DFE)' }}>
         <div className="logo" />
         <h1 style={{ color: 'white', float: 'left',marginRight: '50px',  fontWeight: 'bold'}}>员工中心</h1>
-        <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['2']} items={[
+        <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['1']} style={{ backgroundImage: 'linear-gradient(#475DFF , #259DFE)' }} items={[
            
             {
               key: '1',
-            label: <Link to="/gateway">门户</Link>
+              label: <Link to="gateway">门户</Link>
             },
             {
               key: '2',
@@ -30,7 +28,7 @@ export default function Index() {
             },
             {
               key: '4',
-              label: '报销'
+              label: <Link to="/reimbursement">报销</Link>
             },
             {
               key: '5',

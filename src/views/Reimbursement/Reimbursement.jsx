@@ -4,7 +4,7 @@ import React from 'react';
 const { Content, Sider } = Layout;
 
 
-export default function Index() {
+export default function Reimbursement() {
   return (
     <div className='all'>
       <Layout>
@@ -27,28 +27,27 @@ export default function Index() {
             defaultSelectedKeys={['1']}
             style={{
               height:'calc(100vh - 113px)',
-              
             }}
             items={[
                 {
                   key: '1',
-                  label: <Link to="/check/Work/attendance/settings">考勤设置</Link>
+                  label: <Link to="/reimbursement/reimbursement/apply">报销申请</Link>
                 },
                 {
                   key: '2',
-                  label: <Link to="/check/Work/scheduling/plan">排班计划</Link>
+                  label: <Link to="/reimbursement/all/reimbursement">全部报销</Link>
                 },
                 {
                   key: '3',
-                  label: <Link to="/check/Work/attendance/grouping">考勤分组</Link>
+                  label: <Link to="/reimbursement/my/reimbursement">我的报销</Link>
                 },
                 {
                   key: '4',
-                  label: <Link to="/check/Work/attendance/record">考勤记录</Link>
+                  label: <Link to="/reimbursement/reimbursement/examine">报销审核</Link>
                 },
                 {
                   key: '5',
-                  label: <Link to="/check/Work/attendance/statistics">考勤统计</Link>
+                  label: <Link to="/reimbursement/with/me">与我相关</Link>
                 },
             ]}
           />
@@ -65,6 +64,5 @@ export default function Index() {
         </Content>
       </Layout>
     </div>
-    
   )
 }

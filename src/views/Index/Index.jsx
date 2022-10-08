@@ -1,14 +1,14 @@
 import { Outlet, Link } from 'react-router-dom' 
 import { Layout, Menu } from 'antd';
 import React from 'react';
-const { Header, Content, Sider } = Layout;
+const { Header, Content} = Layout;
 export default function Index() {
   return (
     <Layout className='HEADER'>
-      <Header className="header">
+      <Header className="header" style={{ backgroundImage: 'linear-gradient(#475DFF , #259DFE)' }}>
         <div className="logo" />
         <h1 style={{ color: 'white', float: 'left',marginRight: '50px',  fontWeight: 'bold'}}>员工中心</h1>
-        <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['2']} items={[
+        <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['2']} style={{ backgroundImage: 'linear-gradient(#475DFF , #259DFE)' }} items={[
            
             {
               key: '1',

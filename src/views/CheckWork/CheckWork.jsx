@@ -1,4 +1,4 @@
-import { Outlet, Link, Navigate } from 'react-router-dom' 
+import { Outlet, Link } from 'react-router-dom' 
 import { Layout, Menu } from 'antd';
 import React from 'react';
 const { Content, Sider } = Layout;

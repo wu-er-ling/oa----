@@ -24,7 +24,7 @@ export default function Index() {
             },
             {
               key: '4',
-              label: '报销'
+              label: <Link to="/reimbursement">报销</Link>
             },
             {
               key: '5',

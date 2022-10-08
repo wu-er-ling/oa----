@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Navigate } from "react-router-dom";
 
 import AttendanceGrouping from '../views/AttendanceGrouping/AttendanceGrouping';
 import AttendanceRecord from '../views/AttendanceRecord/AttendanceRecord';
@@ -9,32 +9,34 @@ import Index from "../views/Index/Index";
 
 const router = createBrowserRouter([
     {
-      path:'/',
-      element: <Index />
-    },
-    {
-      path:'attendance/grouping',
-      element: <AttendanceGrouping />
-    },
-    {
-      path:'attendance/record',
-      element: <AttendanceRecord />
-    },
-    {
-      path:'attendance/settings',
-      element: <AttendanceSettings />
-    },
-    {
-      path:'attendance/statistics',
-      element: <Attendancestatistics />
-    },
-    {
-      path:'scheduling/plan',
-      element: <Schedulingplan />
-    },
+      path:'/index',
+      element: <Index />,
+      children: [
+        {
+            path:'attendance/grouping',
+            element: <AttendanceGrouping />
+          },
+          {
+            path:'attendance/record',
+            element: <AttendanceRecord />
+          },
+          {
+            path:'attendance/settings',
+            element: <AttendanceSettings />
+          },
+          {
+            path:'attendance/statistics',
+            element: <Attendancestatistics />
+          },
+          {
+            path:'scheduling/plan',
+            element: <Schedulingplan />
+          }
+      ]
+    },   
     {
       path: '*',
-      element: '404'
+      element: 404
     }
 ]);
 

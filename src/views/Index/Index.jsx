@@ -1,20 +1,16 @@
-import { LaptopOutlined, NotificationOutlined, UserOutlined } from '@ant-design/icons';
+
 import { Breadcrumb, Layout, Menu } from 'antd';
 import React from 'react';
 const { Header, Content, Footer, Sider } = Layout;
 
-const items1 = ['1', '2', '3'].map((key) => ({
+const items1 = ['门户', '会议', '资产'].map((key) => ({
   key,
   label: `nav ${key}`,
 }));
 
-const items2 = [UserOutlined, LaptopOutlined, NotificationOutlined].map((icon, index) => {
-  const key = String(index + 1);
-  return {
-    key: `sub${key}`,
-    icon: React.createElement(icon),
-    label: `subnav ${key}`,
-    
+const items2 = ['考勤设置', '排班计划', '考勤分组', '考勤记录', '考勤统计'].map((v) => {
+  return { 
+    label: v,  
   };
 });
 

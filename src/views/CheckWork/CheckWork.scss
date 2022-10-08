@@ -1,6 +1,6 @@
 
+  .all{
 
-  .HEADER{
     #components-layout-demo-custom-trigger .trigger {
         padding: 0 24px;
         font-size: 18px;
@@ -21,11 +21,14 @@
       
       .ant-layout-header{
         background: #1890ff;
-      }
-
+      } 
       .main{
-        height: calc(100vh); 
-        
+        height: calc(100vh);
+      }
+  }
+
+  #root{
+    .ant-layout-content{
+      height: calc(100vh - 64px);
     }
-      
   }

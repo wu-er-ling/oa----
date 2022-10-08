@@ -12,7 +12,7 @@ export default function Index() {
            
             {
               key: '1',
-              label: '门户'
+            label: <Link to="/gateway">门户</Link>
             },
             {
               key: '2',

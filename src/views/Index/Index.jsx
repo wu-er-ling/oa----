@@ -1,8 +1,14 @@
-import { Outlet, Link } from 'react-router-dom' 
+import { Outlet, Link, useNavigate } from 'react-router-dom' 
 import { Layout, Menu } from 'antd';
-import React from 'react';
-const { Header, Content, Sider } = Layout;
+import React, { useEffect } from 'react';
+const { Header, Content } = Layout;
 export default function Index() {
+
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    navigate('/gateway/personal');
+  }, []);
   return (
     <Layout className='HEADER'>
       <Header className="header">

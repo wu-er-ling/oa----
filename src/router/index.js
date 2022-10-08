@@ -7,7 +7,8 @@ import Attendancestatistics from '../views/Attendancestatistics/Attendancestatis
 import Schedulingplan from '../views/Schedulingplan/Schedulingplan';
 import CheckWork from '../views/CheckWork/CheckWork';
 import Index from "../views/Index/Index";
-import Gateway from '../views/gateway/gateway.jsx';
+import Gateway from '../views/Gateway/Gateway.jsx';
+import Personal from '../views/Gateway/PersonalPortal/PersonalPortal';
 
 const router = createBrowserRouter([
   {
@@ -15,8 +16,14 @@ const router = createBrowserRouter([
     element: <Index />,
     children: [
       {
-        path: '/gateway',
-        element: <Gateway />
+        path: 'gateway',
+        element: <Gateway />,
+        children: [
+          {
+            path: 'personal',
+            element: <Personal/>
+          }
+        ]
       },
       {
         path: 'check/Work',

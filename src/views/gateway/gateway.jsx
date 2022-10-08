@@ -1,10 +1,10 @@
 import React from 'react'
-import { Outlet, Link, Navigate } from 'react-router-dom'
+import { Outlet, Link,} from 'react-router-dom'
 import { Layout, Menu } from 'antd';
-import './gateway.scss'
+import './Gateway.scss'
 
 const { Content, Sider } = Layout;
-export default function gateway() {
+export default function Gateway() {
   return (
     <div className='all'>
       <Layout>
@@ -43,7 +43,7 @@ export default function gateway() {
                   },
                   {
                     key: '4',
-                    label: <Link to="/check/Work/attendance/record">个人门户</Link>
+                    label: <Link to="/gateway/personal">个人门户</Link>
                   },
                   {
                     key: '5',

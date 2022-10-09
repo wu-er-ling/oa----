@@ -1,6 +1,7 @@
 import { Outlet, Link, Navigate,useLocation } from 'react-router-dom' 
 import { Layout, Menu } from 'antd';
 import React from 'react';
+import "./Index.scss"
 const { Header, Content,} = Layout;
 export default function Index() {
   const location = useLocation();

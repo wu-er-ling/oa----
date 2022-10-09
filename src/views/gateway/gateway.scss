@@ -1,33 +1,9 @@
-.all {
-
-    #components-layout-demo-custom-trigger .trigger {
-        font-size: 18px;
-        line-height: 64px;
-        cursor: pointer;
-        transition: color 0.3s;
-    }
-
-    #components-layout-demo-custom-trigger .trigger:hover {
-        color: #1890ff;
-    }
-
-    #components-layout-demo-custom-trigger .logo {
-        height: 32px;
-        margin: 16px;
-        background: rgba(255, 255, 255, 0.3);
-    }
-
-    .ant-layout-header {
-        background: #1890ff;
-    }
-
-    .main {
-        height: calc(100vh);
-    }
-}
-
-#root {
-    .ant-layout-content {
-        height: calc(100vh - 64px);
-    }
+.gateway{
+  
+    .ant-layout-content{
+        main {
+                height: calc(100vh - 64px);
+                
+            }
+    } 
 }

@@ -10,67 +10,55 @@ export default function Gateway() {
     return <Navigate to="personal" />;
   }
   return (
-    <div className='all'>
-      <Layout>
-        <Content
-          style={{
-            padding: '0 50px',
-            height: 'calc(100vh - 113px)'
-          }}
-          className="main"
-        >
-          <Layout
-
+    <Layout className='gateway'>
+      <Content>
+        <Layout>
+          <Sider className="site-layout-background">
+            <Menu
+              mode="inline"
+              defaultSelectedKeys={['4']}
+              style={{
+                height: '100%',
+              }}
+              items={[
+                {
+                  key: '1',
+                  label: <Link to="">集团门户</Link>
+                },
+                {
+                  key: '2',
+                  label: <Link to="">公司门户</Link>
+                },
+                {
+                  key: '3',
+                  label: <Link to="">部门门户</Link>
+                },
+                {
+                  key: '4',
+                  label: <Link to="/gateway/personal">个人门户</Link>
+                },
+                {
+                  key: '5',
+                  label: <Link to="">部门页面</Link>
+                },
+                {
+                  key: '6',
+                  label: <Link to="">个人页面</Link>
+                }
+              ]}
+            />
+          </Sider>
+          <Content
+            className='content'
             style={{
-              padding: '24px 0',
+              padding: '0 24px',
+
             }}
           >
-            <Sider className="site-layout-background" width={200}>
-              <Menu
-                mode="inline"
-                defaultSelectedKeys={['4']}
-                style={{
-                  height: '100%',
-                }}
-                items={[
-                  {
-                    key: '1',
-                    label: <Link to="">集团门户</Link>
-                  },
-                  {
-                    key: '2',
-                    label: <Link to="">公司门户</Link>
-                  },
-                  {
-                    key: '3',
-                    label: <Link to="">部门门户</Link>
-                  },
-                  {
-                    key: '4',
-                    label: <Link to="/gateway/personal">个人门户</Link>
-                  },
-                  {
-                    key: '5',
-                    label: <Link to="">部门页面</Link>
-                  },
-                  {
-                    key: '6',
-                    label: <Link to="">个人页面</Link>
-                  }
-                ]}
-              />
-            </Sider>
-            <Content
-              style={{
-                padding: '0 24px',
-
-              }}
-            >
-              <Outlet />
-            </Content>
-          </Layout>
-        </Content>
-      </Layout>
-    </div>
+            <Outlet />
+          </Content>
+        </Layout>
+      </Content>
+    </Layout>
   )
 }

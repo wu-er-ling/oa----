@@ -7,9 +7,8 @@ import Attendancestatistics from '../views/Attendancestatistics/Attendancestatis
 import Schedulingplan from '../views/Schedulingplan/Schedulingplan';
 import CheckWork from '../views/CheckWork/CheckWork';
 import Index from "../views/Index/Index";
-import Gateway from '../views/Gateway/Gateway.jsx';
+import Gateway from '../views/Gateway/Gateway';
 import Personal from '../views/Gateway/PersonalPortal/PersonalPortal';
-
 import Reimbursement from "../views/Reimbursement/Reimbursement";
 import AllReimbursement from "../views/AllReimbursement/AllReimbursement";
 import MyReimbursement from "../views/MyReimbursement/MyReimbursement";

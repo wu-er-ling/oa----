@@ -16,6 +16,13 @@ import ReimbursementApply from "../views/ReimbursementApply/ReimbursementApply";
 import WithMe from "../views/WithMe/WithMe";
 import ReimbursementExamine from "../views/ReimbursementExamine/ReimbursementExamine";
 
+import Reimbursement from "../views/Reimbursement/Reimbursement";
+import AllReimbursement from "../views/AllReimbursement/AllReimbursement";
+import MyReimbursement from "../views/MyReimbursement/MyReimbursement";
+import ReimbursementApply from "../views/ReimbursementApply/ReimbursementApply";
+import WithMe from "../views/WithMe/WithMe";
+import ReimbursementExamine from "../views/ReimbursementExamine/ReimbursementExamine";
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -28,6 +35,32 @@ const router = createBrowserRouter([
           {
             path: 'personal',
             element: <Personal/>
+          }
+        ]
+      },
+      {
+        path: 'reimbursement',
+        element: <Reimbursement />,
+        children: [
+          {
+            path: 'all/reimbursement',
+            element: <AllReimbursement />
+          },
+          {
+            path: 'my/reimbursement',
+            element: <MyReimbursement />
+          },
+          {
+            path: 'reimbursement/apply',
+            element: <ReimbursementApply />
+          },
+          {
+            path: 'reimbursement/examine',
+            element: <ReimbursementExamine />
+          },
+          {
+            path: 'with/me',
+            element: <WithMe />
           }
         ]
       },

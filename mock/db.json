@@ -1,0 +1,90 @@
+{
+  "users": [
+    {
+      "email": "asdasd@qq.com",
+      "password": "$2a$10$tfk1f6VFtq3vYKN0cLXvT.o6Go7JsmDblEPO5E/QlkW22/Cri8anW",
+      "name": "asdasd",
+      "role": "管理员",
+      "id": 1
+    },
+    {
+      "email": "xiaohu@qq.com",
+      "password": "$2a$10$RDexgsOkK14vI0Jp83oyxeaoRsp.37Dj8LLSwM3xEOeyDI.fS.EM.",
+      "name": "小虎",
+      "role": "经理",
+      "id": 3
+    },
+    {
+      "email": "xiaoxiong@qq.com",
+      "password": "$2a$10$8GJGM/R6Sl69uRbp8F.k.uFMTUvONQLFI2zCldhbGg9242mdXEjiO",
+      "name": "小熊",
+      "role": "经理",
+      "id": 5
+    },
+    {
+      "email": "xiaomao@qq.com",
+      "password": "$2a$10$IBfNhKUaiSU98czWvvnLQOxN4jtoXSWsig7TX.WKm/IzFfLxA/ANu",
+      "name": "小猫",
+      "role": "员工",
+      "id": 7
+    },
+    {
+      "email": "xiaoming@qq.com",
+      "password": "$2a$10$0rXS5wjzMXsJIGt89ld47Oo22sNlksuVhdkJW6Rmwh/MK96o2VfIi",
+      "name": "小明",
+      "role": "员工",
+      "id": 8
+    },
+    {
+      "email": "xiaoli@qq.com",
+      "password": "$2a$10$fupmA4uEGbC7ofstSyZi4etg847bHN.b8BWA/1T2cg1teiDR0LFvq",
+      "name": "小李",
+      "role": "经理",
+      "id": 9
+    }
+  ],
+  "checks": [
+    {
+      "checktoname": "小虎",
+      "checktype": "病假",
+      "checktime": [
+        "2022-10-11T16:00:07.539Z",
+        "2022-10-11T16:04:00.260Z"
+      ],
+      "checkinfo": "444444",
+      "status": "通过",
+      "checkfromid": 8,
+      "checkfromname": "小明",
+      "checktoid": 3,
+      "id": 1
+    },
+    {
+      "checktoname": "小虎",
+      "checktype": "年假",
+      "checktime": [
+        "2022-10-22T09:25:36.162Z",
+        "2022-10-29T09:25:39.162Z"
+      ],
+      "checkinfo": "4654654",
+      "status": "不通过",
+      "checkfromid": 8,
+      "checkfromname": "小明",
+      "checktoid": 3,
+      "id": 2
+    },
+    {
+      "checktoname": "小熊",
+      "checktype": "加班",
+      "checktime": [
+        "2022-10-14T16:44:00.039Z",
+        "2022-10-14T16:49:00.576Z"
+      ],
+      "checkinfo": "546541\n",
+      "status": "不通过",
+      "checkfromid": 8,
+      "checkfromname": "小明",
+      "checktoid": 5,
+      "id": 3
+    }
+  ]
+}

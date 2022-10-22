@@ -1,0 +1,19 @@
+.CheckChange {
+    .checkAddButton {
+        // display: flex;
+        // justify-content: flex-end;
+        text-align: right;
+    }
+
+    .userTable {
+        margin-top: 20px;
+
+        * {
+            text-align: center;
+        }
+    }
+    .filterRadio{
+        display: flex;
+        justify-content: flex-end;
+    }
+}

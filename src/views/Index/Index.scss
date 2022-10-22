@@ -1,0 +1,19 @@
+.index{
+    .header{
+        display: flex;
+        justify-content: space-between;
+        color: white;
+    }
+    h2{
+        color: white;
+    }
+    h3{
+        color: white;
+        font-size: 15px;
+        height: 30px;
+    }
+    .main{
+        height: calc(100vh - 64px);
+    }
+    .content{background: white;}
+}

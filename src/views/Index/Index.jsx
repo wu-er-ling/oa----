@@ -21,7 +21,7 @@ export default function Index() {
             },
             {
               key: '2',
-              label: '会议'
+              label: <Link to='meeting'>会议</Link>
             },
             {
               key: '3',

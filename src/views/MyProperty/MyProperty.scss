@@ -1,0 +1,41 @@
+.shai{
+    width: 100%;
+    background-color: white;
+
+    h6{
+        font-size: 15px;
+        color: #666;
+        line-height: 40px;
+        text-indent: 30px;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    .kuang{
+        .ant-input{
+            width: 200px;
+            height: 32px;
+        }
+        .ant-select-selector{
+            width: 200px;
+        }
+        p{
+            padding-left: 30px;
+            padding-top: 4px;
+            padding-bottom: 8px;
+        }
+    }
+}
+.lei{
+    width: 100%;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    h6{
+        font-size: 15px;
+        color: #666;
+        line-height: 60px;
+        text-indent: 30px;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+}

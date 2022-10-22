@@ -1,0 +1,227 @@
+.Portal {
+
+    height: 100%;
+
+    .ant-layout-sider-children {
+        background: #fff;
+    }
+
+    .site-layout-background {
+        background: rgb(240, 240, 240);
+    }
+
+    .ant-menu-item-only-child {
+        border-bottom: 1px solid rgb(242, 242, 242);
+
+    }
+
+    .groupArea {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+
+        .swiper {
+            height: 370px;
+            background: pink;
+            overflow: hidden;
+        }
+
+        .groupIntroduce {
+            margin-top: 10px;
+            height: 370px;
+            background: #fff;
+
+            h2 {
+                font-size: 16px;
+                height: 48px;
+                line-height: 48px;
+                border-bottom: 1px solid #ccc;
+                box-sizing: border-box;
+                color: rgb(102, 102, 102);
+                text-indent: 1em;
+                font-weight: 800;
+            }
+
+            .groupIntroduce-innerbox {}
+        }
+
+        .groupNews {
+            margin-top: 10px;
+            flex: 1;
+            height: 100%;
+            background: #fff;
+
+            h2 {
+                font-size: 16px;
+                height: 48px;
+                line-height: 48px;
+                border-bottom: 1px solid #ccc;
+                box-sizing: border-box;
+                color: rgb(102, 102, 102);
+                text-indent: 1em;
+                font-weight: 800;
+                background: #fff;
+            }
+
+            .groupNews-innerbox {}
+        }
+    }
+
+    .groupAreaRight {
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            font-size: 16px;
+            height: 48px;
+            line-height: 48px;
+            border-bottom: 1px solid #ccc;
+            box-sizing: border-box;
+            color: rgb(102, 102, 102);
+            text-indent: 1em;
+            font-weight: 800;
+        }
+
+        .announcement {
+            margin-top: 10px;
+            height: 230px;
+            background: greenyellow;
+            background: #fff;
+
+            .announcement-innerbox {
+                overflow-y: auto;
+                height: calc(100% - 48px);
+                .ant-list-item{
+                    color: rgb(153, 153, 153);
+                    border: none;
+                }
+            }
+//滚动条样式
+            .announcement-innerbox::-webkit-scrollbar {
+                width: 1px;
+                height: 6px;
+                opacity: 0.4;
+            }
+
+            .announcement-innerbox::-webkit-scrollbar-track {
+                background-color: white;
+                border-radius: 8px;
+                opacity: 0.4;
+            }
+
+            .announcement-innerbox::-webkit-scrollbar-track-piece {
+                width: 1px;
+            }
+
+            .announcement-innerbox::-webkit-scrollbar-thumb {
+                border-radius: 8px;
+                background-color: gray;
+                opacity: 0.4;
+            }
+        }
+
+        .groupMembers {
+            margin-top: 10px;
+            height: 410px;
+            background: #fff;
+            width: 100%;
+            overflow: hidden;
+
+            .groupMembers-innerbox {
+                height: 360px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+                .boxOne{
+                    display: flex;
+                    flex-direction: row;
+                    width: 280px;
+                    height: 96px;
+                    border-radius: 5px;
+                    overflow: hidden;
+                   h2{
+                       width: 68px;
+                       height: 96px;
+                       background: rgb(91, 129, 172);
+                       color: #fff;
+                       line-height: 96px;
+                   }
+                   div{
+                       flex: 1;
+                       background: rgb(81, 168, 255);
+                   }
+                }
+                .boxTwo{
+                    display: flex;
+                    flex-direction: row;
+                    width: 280px;
+                    height: 96px;
+                    border-radius: 5px;
+                    overflow: hidden;
+                    h2{
+                        width: 68px;
+                        height: 96px;
+                        background: rgb(99, 150, 119);
+                        color: #fff;
+                        line-height: 96px;
+                    }
+                    div{
+                        flex: 1;
+                        background: rgb(75, 216, 99);
+                    }
+                }
+                .boxThree{
+                    display: flex;
+                    flex-direction: row;
+                    width: 280px;
+                    height: 96px;
+                    border-radius: 5px;
+                    overflow: hidden;
+                    h2{
+                        width: 68px;
+                        height: 96px;
+                        background: rgb(159, 109, 115);
+                        color: #fff;
+                        line-height: 96px;
+                    }
+                    div{
+                        flex: 1;
+                        background: rgb(249,94, 90);
+                    }
+                }
+            }
+        }
+
+        .groupLeadership {
+            margin-top: 10px;
+            flex: 1;
+            background: #fff;
+            .groupLeadership-innerbox {
+                width: 100%;
+                .headtitle{
+                    height: 110px;
+                    line-height: 110px;
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: #ccc;
+                }
+                .artical{
+                    font-size: 14px;
+                    color: #ccc;
+                    line-height: 20px;
+                    text-align: center;
+                    word-wrap: break-word;
+                    word-break: break-all;
+                    p{
+                        width: 262px;
+                        display: block;
+                        margin: 50px auto;
+                    }
+                }
+            }
+        }
+    }
+
+
+}

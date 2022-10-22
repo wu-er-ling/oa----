@@ -1,0 +1,36 @@
+.RoomList{
+    position: relative;
+    .head{
+        position: absolute;
+        background: #fff;
+        width: calc(100% + 48px);
+        height: 44px;
+        top: -24px;
+        left: -24px;
+        span{
+            margin-left: 50px;
+            line-height: 44px;
+            color: rgb(66, 66, 66);
+        }
+    }
+    .screen{
+        position: absolute;
+        top: 40px;
+        background: #fff;
+        height: 130px;
+        width: 100%;
+        h3{
+            line-height: 40px;
+            height: 40px;
+            width: 100%;
+            border-bottom: 1px solid #999 ;
+        }
+        .ant-form{
+            margin-top: 30px;
+            .ant-input{
+                margin-right: 300px;
+                width: 300px !important;
+            }
+        }
+    }
+}

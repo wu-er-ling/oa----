@@ -1,0 +1,43 @@
+.shai{
+    width: 100%;
+    background-color: white;
+    padding-top: 4px;
+    h6{
+        font-size: 18px;
+        color: #666;
+        text-indent: 30px;
+        font-weight: bold;
+        margin: 0;
+    }
+    .kuang{
+        padding-left: 30px;
+        padding-bottom: 20px;
+        .ant-select-selection-item{
+            width: 200px;
+        }
+        .cha{
+            margin-left: 65px;
+        }
+        
+    }
+}
+.lei{
+    width: 100%;
+    background-color: white;
+    margin-top: 20px;
+    .top{
+        display: flex;
+        justify-content: space-between;
+        h6{
+            font-size: 15px;
+            color: #666;
+            line-height: 40px;
+            text-indent: 30px;
+            font-weight: bold;
+        }
+        .button{
+            margin-top: 23px;
+            margin-right: 30px;
+        }
+    }
+}

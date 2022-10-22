@@ -1,0 +1,187 @@
+{
+  "Data": [
+    {
+      "name": "tertiary",
+      "starttime": "9月25日",
+      "endtime": "2月三日",
+      "remarks": "让他一人吧",
+      "id": 7
+    },
+    {
+      "name": "国庆节",
+      "starttime": "9月25日",
+      "endtime": "4月4日",
+      "remarks": "123",
+      "id": 8
+    },
+    {
+      "name": "tertiary",
+      "starttime": "9月25日",
+      "endtime": "10月7日",
+      "remarks": "1231",
+      "id": 9
+    },
+    {
+      "name": "小黄",
+      "starttime": "2月9日",
+      "endtime": "3月8日",
+      "remarks": "123",
+      "id": 10
+    }
+  ],
+  "plan": [
+    {
+      "name": "小强",
+      "starttime": "4月1日",
+      "endtime": "4月5日",
+      "remarks": "啊啊啊666",
+      "id": 13
+    },
+    {
+      "name": "小丽",
+      "starttime": "9月25日",
+      "endtime": "4月4日",
+      "remarks": "擦便出现",
+      "id": 14
+    },
+    {
+      "name": "小张",
+      "starttime": "9月25日",
+      "endtime": "3月15日",
+      "remarks": "777",
+      "id": 15
+    },
+    {
+      "name": "小张",
+      "starttime": "9月25日",
+      "endtime": "3月15日",
+      "remarks": "777",
+      "id": 16
+    },
+    {
+      "name": "小王",
+      "starttime": "2月19日",
+      "endtime": "3月2日",
+      "remarks": "啊啊啊",
+      "id": 17
+    },
+    {
+      "name": "小王",
+      "starttime": "2月19日",
+      "endtime": "3月2日",
+      "remarks": "啊啊啊",
+      "id": 18
+    },
+    {
+      "name": "小A",
+      "starttime": "2月9日",
+      "endtime": "3月2日",
+      "remarks": "啊啊啊",
+      "id": 19
+    },
+    {
+      "name": "小A",
+      "starttime": "2月9日",
+      "endtime": "3月2日",
+      "remarks": "啊啊啊",
+      "id": 20
+    },
+    {
+      "name": "小A",
+      "starttime": "2月9日",
+      "endtime": "3月2日",
+      "remarks": "啊啊啊",
+      "id": 21
+    },
+    {
+      "name": "小b",
+      "starttime": "10月1日",
+      "endtime": "3月15日",
+      "remarks": "啊啊啊",
+      "id": 22
+    },
+    {
+      "name": "小丽",
+      "starttime": "2月9日",
+      "endtime": "10月7日",
+      "remarks": "132",
+      "id": 23
+    },
+    {
+      "name": "小8",
+      "starttime": "2月9日",
+      "endtime": "10月7日",
+      "remarks": "132",
+      "id": 24
+    },
+    {
+      "name": "小8",
+      "starttime": "2月9日",
+      "endtime": "10月7日",
+      "remarks": "132",
+      "id": 25
+    }
+  ],
+  "property": [
+    {
+      "number": "12345",
+      "name": "笔记本电脑",
+      "type": "固定资产",
+      "classify": "数码/电脑/笔记本电脑",
+      "norms": "XXXX",
+      "cang": "罗马仕",
+      "zhuang": "报修",
+      "guan": "XXXX",
+      "dan": "张",
+      "id": 2
+    },
+    {
+      "number": "0000",
+      "name": "办公椅",
+      "type": "固定资产",
+      "classify": "办公用品/办公椅",
+      "zhuang": "正常",
+      "dan": "张",
+      "norms": "XXXX",
+      "cang": "罗马仕",
+      "guan": "XXXX",
+      "id": 3
+    },
+    {
+      "number": "733367",
+      "name": "办公椅",
+      "type": "易耗品",
+      "classify": "办公用品/办公椅",
+      "norms": "XXXX",
+      "cang": "罗马仕",
+      "zhuang": "正常",
+      "guan": "XXXX",
+      "dan": "台",
+      "id": 4
+    },
+    {
+      "number": "144457",
+      "type": "易耗品",
+      "classify": "办公用品/纸张",
+      "name": "纸张",
+      "norms": "XXXX",
+      "cang": "罗马仕",
+      "zhuang": "正常",
+      "guan": "XXXX",
+      "dan": "张",
+      "id": 5
+    },
+    {
+      "number": "555",
+      "type": "易耗品",
+      "classify": "办公用品/纸张",
+      "name": "纸张",
+      "norms": "XXXX",
+      "cang": "罗马仕",
+      "zhuang": "正常",
+      "guan": "XXXX",
+      "dan": "台",
+      "id": 6
+    }
+  ]
+}
